@@ -1,9 +1,9 @@
 def find_min_in_nested_arrays(src)
- smallest_number = []
+ result = []
  count = 0 
  while count < src.length do
    number_index = 0
-   index = 1 
+   smallest = 0 
    while number_index < src[count].length do
      if src[count][number_index] < src[count][index]
        smallest_number << src[count][number_index]
