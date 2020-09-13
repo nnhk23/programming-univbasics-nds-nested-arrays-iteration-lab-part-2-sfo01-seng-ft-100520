@@ -10,8 +10,8 @@ def find_min_in_nested_arrays(src)
       smallest = src[count][number_index] 
    end
    number_index += 1 
-      result << smallest
    end
+   result << smallest
    count += 1
 end
 result
